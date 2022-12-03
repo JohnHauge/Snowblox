@@ -27,6 +27,7 @@ namespace SnowBlocks
 
         private void Update()
         {
+            //Yes, this is a so called bottle neck.
             foreach (var snowBlock in _snowBlocks) snowBlock.Update();
         }
     }
