@@ -330,11 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f81197ae8e9f1b4f894abce12977955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowAmount: 8000
-  minHorizontalSpawn: -100
-  maxHorizontalSpawn: 100
-  minVerticalSpawn: 14
-  maxVerticalSpawn: 30
+  snowSettings: {fileID: 11400000, guid: ea98a7ecd9dd82d4c9fdfe678715dbbf, type: 2}
   snowBlockMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   snowBlockMaterial: {fileID: 2100000, guid: ff565189c2247944e9e8f43be1d27f81, type: 2}
 --- !u!4 &1150345579
