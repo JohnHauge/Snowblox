@@ -9,7 +9,7 @@ namespace SnowBlocks.ecsSnow
             base.OnStartRunning();
             var snowEntityQuery = EntityManager.CreateEntityQuery(typeof(SnowTag));
             var randomComponent = SystemAPI.GetSingletonRW<RandomComponent>();
-            const int spawnAmount = 500000;
+            const int spawnAmount = 10000;
 
             var snowSpawnerComponent = SystemAPI.GetSingleton<SnowSpawnerComponent>();
 

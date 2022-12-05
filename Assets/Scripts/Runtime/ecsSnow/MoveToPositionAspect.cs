@@ -39,9 +39,9 @@ namespace SnowBlocks.ecsSnow
         {
             return new float3
             {
-                x = random.ValueRW.Random.NextFloat(-50f, 50f),
-                y = random.ValueRW.Random.NextFloat(7f, 15f),
-                z = random.ValueRW.Random.NextFloat(-50f, 50f)
+                x = random.ValueRW.Random.NextFloat(-40f, 40f),
+                y = random.ValueRW.Random.NextFloat(7f, 25f),
+                z = random.ValueRW.Random.NextFloat(-40f, 40f)
             };
         }
     }
